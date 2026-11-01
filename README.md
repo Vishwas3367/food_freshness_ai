@@ -1,8 +1,8 @@
 # FreshBox AI
 
-FreshBox AI is a prototype for monitoring food-storage conditions using sensor data. It combines an ESP32 firmware project, a FastAPI service, and a React web interface.
+FreshBox AI explores sensor-based food-storage monitoring through ESP32 firmware, a FastAPI backend, and a React web interface.
 
-> **Prototype notice:** FreshBox AI is a research and demonstration project, not a validated food-safety system. It does not provide verified remaining-shelf-life predictions. Do not rely on it to determine whether food is safe to eat.
+> **Project status:** FreshBox AI is under active development. Its analysis features are experimental and have not been validated for food-safety decisions.
 
 ## What’s included
 
