@@ -1,0 +1,67 @@
+{
+    "food_type": "tomato",
+    "source": "tomato_reference_dataset_code_compatible.csv",
+    "source_path": "data/external_datasets/tomato_reference_dataset_code_compatible.csv",
+    "row_count": 142,
+    "sensor_coverage": {
+        "temperature": false,
+        "humidity": false,
+        "gas": true,
+        "weight": true,
+        "storage_time": true
+    },
+    "reference_confidence": 0.6,
+    "temperature": {
+        "available": false,
+        "mean_c": null,
+        "minimum_c": null,
+        "maximum_c": null,
+        "std_c": null
+    },
+    "humidity": {
+        "available": false,
+        "mean_percent": null,
+        "minimum_percent": null,
+        "maximum_percent": null,
+        "std_percent": null
+    },
+    "gas": {
+        "available": true,
+        "columns": [
+            "mq2",
+            "mq3_1",
+            "mq3_10",
+            "mq4",
+            "mq5",
+            "mq6",
+            "mq8",
+            "mq9",
+            "mq135",
+            "mq136",
+            "mq137",
+            "mq138",
+            "gas_reference_mean",
+            "gas_sensor_type"
+        ],
+        "mean": 0.8954074868773474,
+        "minimum": 0.5640953953333333,
+        "maximum": 1.0,
+        "std": 0.060675234272047684
+    },
+    "weight": {
+        "available": true,
+        "initial_weight_mean_g": 91.12776056338028,
+        "current_weight_mean_g": 85.67242253521127,
+        "weight_loss_mean_g": 5.455338028169014,
+        "weight_loss_percent_mean": 5.847262224812406
+    },
+    "storage": {
+        "available": true,
+        "minimum_day": 3.0,
+        "maximum_day": 14.0,
+        "mean_day": 8.450704225352112
+    },
+    "freshness_labels_available": false,
+    "rsl_available": false,
+    "notes": "Reference statistics are derived only from observed dataset fields. Missing measurements are not imputed."
+}

@@ -1,0 +1,57 @@
+{
+    "food_type": "banana",
+    "source": "banana_reference_dataset_code_compatible.csv",
+    "source_path": "data/external_datasets/banana_reference_dataset_code_compatible.csv",
+    "row_count": 26885,
+    "sensor_coverage": {
+        "temperature": true,
+        "humidity": true,
+        "gas": true,
+        "weight": false,
+        "storage_time": false
+    },
+    "reference_confidence": 0.6,
+    "temperature": {
+        "available": true,
+        "mean_c": 15.828805479956575,
+        "minimum_c": 9.44,
+        "maximum_c": 23.99,
+        "std_c": 2.82182344357541
+    },
+    "humidity": {
+        "available": true,
+        "mean_percent": 63.24865539043998,
+        "minimum_percent": 48.75,
+        "maximum_percent": 81.61,
+        "std_percent": 8.043705159219943
+    },
+    "gas": {
+        "available": true,
+        "columns": [
+            "voc_tgs2620_response",
+            "voc_tgs2602_response",
+            "voc_sgp40_response",
+            "gas_voc_reference"
+        ],
+        "mean": 1356.417417034343,
+        "minimum": 201.66666666666666,
+        "maximum": 4230.0,
+        "std": 1173.754304407774
+    },
+    "weight": {
+        "available": false,
+        "initial_weight_mean_g": null,
+        "current_weight_mean_g": null,
+        "weight_loss_mean_g": null,
+        "weight_loss_percent_mean": null
+    },
+    "storage": {
+        "available": false,
+        "minimum_day": null,
+        "maximum_day": null,
+        "mean_day": null
+    },
+    "freshness_labels_available": false,
+    "rsl_available": false,
+    "notes": "Reference statistics are derived only from observed dataset fields. Missing measurements are not imputed."
+}

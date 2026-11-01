@@ -1,0 +1,308 @@
+{
+    "tomato": {
+        "display_name": "Tomato",
+        "category": "vegetable",
+
+        "temperature": {
+            "preferred_min_c": null,
+            "preferred_max_c": null,
+            "critical_max_c": null
+        },
+
+        "humidity": {
+            "preferred_min_percent": null,
+            "preferred_max_percent": null
+        },
+
+        "gas": {
+            "fresh_baseline": null,
+            "fresh_range_min": null,
+            "fresh_range_max": null
+        },
+
+        "weight": {
+            "expected_loss_rate": null
+        },
+
+        "reference": {
+            "expected_rsl_min_days": null,
+            "expected_rsl_max_days": null,
+
+            "source_files": [
+                "data/reference_data/tomato_reference.json"
+            ],
+
+            "coverage": {
+                "temperature": false,
+                "humidity": false,
+                "gas": true,
+                "weight": true,
+                "storage_time": true,
+                "rsl": false
+            },
+
+            "reference_confidence": 0.60
+        },
+
+        "adaptive_learning": {
+            "individual_baseline": true,
+            "temporal_learning": true,
+            "reference_assisted": true
+        },
+
+        "profile_version": "2.0",
+        "validated": false
+    },
+
+    "banana": {
+        "display_name": "Banana",
+        "category": "fruit",
+
+        "temperature": {
+            "preferred_min_c": null,
+            "preferred_max_c": null,
+            "critical_max_c": null
+        },
+
+        "humidity": {
+            "preferred_min_percent": null,
+            "preferred_max_percent": null
+        },
+
+        "gas": {
+            "fresh_baseline": null,
+            "fresh_range_min": null,
+            "fresh_range_max": null
+        },
+
+        "weight": {
+            "expected_loss_rate": null
+        },
+
+        "reference": {
+            "expected_rsl_min_days": null,
+            "expected_rsl_max_days": null,
+            "source_files": [
+                "data/reference_data/banana_reference.json"
+            ],
+            "coverage": {
+                "temperature": true,
+                "humidity": true,
+                "gas": true,
+                "weight": false,
+                "storage_time": false,
+                "rsl": false
+            },
+            "reference_confidence": 0.60
+        },
+
+        "adaptive_learning": {
+            "individual_baseline": true,
+            "temporal_learning": true,
+            "reference_assisted": true
+        },
+
+        "profile_version": "2.0",
+        "validated": false
+    },
+
+    "apple": {
+        "display_name": "Apple",
+        "category": "fruit",
+
+        "temperature": {
+            "preferred_min_c": null,
+            "preferred_max_c": null,
+            "critical_max_c": null
+        },
+
+        "humidity": {
+            "preferred_min_percent": null,
+            "preferred_max_percent": null
+        },
+
+        "gas": {
+            "fresh_baseline": null,
+            "fresh_range_min": null,
+            "fresh_range_max": null
+        },
+
+        "weight": {
+            "expected_loss_rate": null
+        },
+
+        "reference": {
+            "expected_rsl_min_days": null,
+            "expected_rsl_max_days": null,
+            "source_files": [],
+            "coverage": {
+                "temperature": false,
+                "humidity": false,
+                "gas": false,
+                "weight": false,
+                "storage_time": false,
+                "rsl": false
+            },
+            "reference_confidence": 0.0
+        },
+
+        "adaptive_learning": {
+            "individual_baseline": true,
+            "temporal_learning": true,
+            "reference_assisted": false
+        },
+
+        "profile_version": "2.0",
+        "validated": false
+    },
+
+    "mango": {
+        "display_name": "Mango",
+        "category": "fruit",
+
+        "temperature": {
+            "preferred_min_c": null,
+            "preferred_max_c": null,
+            "critical_max_c": null
+        },
+
+        "humidity": {
+            "preferred_min_percent": null,
+            "preferred_max_percent": null
+        },
+
+        "gas": {
+            "fresh_baseline": null,
+            "fresh_range_min": null,
+            "fresh_range_max": null
+        },
+
+        "weight": {
+            "expected_loss_rate": null
+        },
+
+        "reference": {
+            "expected_rsl_min_days": null,
+            "expected_rsl_max_days": null,
+            "source_files": [],
+            "coverage": {
+                "temperature": false,
+                "humidity": false,
+                "gas": false,
+                "weight": false,
+                "storage_time": false,
+                "rsl": false
+            },
+            "reference_confidence": 0.0
+        },
+
+        "adaptive_learning": {
+            "individual_baseline": true,
+            "temporal_learning": true,
+            "reference_assisted": false
+        },
+
+        "profile_version": "2.0",
+        "validated": false
+    },
+
+    "carrot": {
+        "display_name": "Carrot",
+        "category": "vegetable",
+
+        "temperature": {
+            "preferred_min_c": null,
+            "preferred_max_c": null,
+            "critical_max_c": null
+        },
+
+        "humidity": {
+            "preferred_min_percent": null,
+            "preferred_max_percent": null
+        },
+
+        "gas": {
+            "fresh_baseline": null,
+            "fresh_range_min": null,
+            "fresh_range_max": null
+        },
+
+        "weight": {
+            "expected_loss_rate": null
+        },
+
+        "reference": {
+            "expected_rsl_min_days": null,
+            "expected_rsl_max_days": null,
+            "source_files": [],
+            "coverage": {
+                "temperature": false,
+                "humidity": false,
+                "gas": false,
+                "weight": false,
+                "storage_time": false,
+                "rsl": false
+            },
+            "reference_confidence": 0.0
+        },
+
+        "adaptive_learning": {
+            "individual_baseline": true,
+            "temporal_learning": true,
+            "reference_assisted": false
+        },
+
+        "profile_version": "2.0",
+        "validated": false
+    },
+
+    "potato": {
+        "display_name": "Potato",
+        "category": "vegetable",
+
+        "temperature": {
+            "preferred_min_c": null,
+            "preferred_max_c": null,
+            "critical_max_c": null
+        },
+
+        "humidity": {
+            "preferred_min_percent": null,
+            "preferred_max_percent": null
+        },
+
+        "gas": {
+            "fresh_baseline": null,
+            "fresh_range_min": null,
+            "fresh_range_max": null
+        },
+
+        "weight": {
+            "expected_loss_rate": null
+        },
+
+        "reference": {
+            "expected_rsl_min_days": null,
+            "expected_rsl_max_days": null,
+            "source_files": [],
+            "coverage": {
+                "temperature": false,
+                "humidity": false,
+                "gas": false,
+                "weight": false,
+                "storage_time": false,
+                "rsl": false
+            },
+            "reference_confidence": 0.0
+        },
+
+        "adaptive_learning": {
+            "individual_baseline": true,
+            "temporal_learning": true,
+            "reference_assisted": false
+        },
+
+        "profile_version": "2.0",
+        "validated": false
+    }
+}
