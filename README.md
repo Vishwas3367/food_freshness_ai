@@ -2,7 +2,6 @@
 
 FreshBox AI explores sensor-based food-storage monitoring through ESP32 firmware, a FastAPI backend, and a React web interface.
 
-> **Project status:** FreshBox AI is under active development. Its analysis features are experimental and have not been validated for food-safety decisions.
 
 ## What’s included
 
